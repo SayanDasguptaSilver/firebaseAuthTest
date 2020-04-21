@@ -62,5 +62,12 @@ function onloadTest(){
 }
 
 window.onload = function(){
+	console.clear();
+	console.log("Window onload Successfull Started :)");
+	alert("Dev Project:Sayan Dasgupta");
+	alert("Open Devoloper Panel : Chrome= F12");
+	alert("Email/Password: admin@gmail.com/password");
+	console.log("var user = firebase.auth().currentUser; => Is under Test => Successfull");
+	console.log("https://github.com/SayanDasguptaSilver/firebaseAuthTest.git");
 	onloadTest();	
 };
