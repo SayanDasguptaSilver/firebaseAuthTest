@@ -1,0 +1,25 @@
+[debug] [2020-04-21T18:09:21.563Z] ----------------------------------------------------------------------
+[debug] [2020-04-21T18:09:21.565Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sayan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-04-21T18:09:21.565Z] CLI Version:   7.15.1
+[debug] [2020-04-21T18:09:21.565Z] Platform:      win32
+[debug] [2020-04-21T18:09:21.565Z] Node Version:  v12.16.1
+[debug] [2020-04-21T18:09:21.566Z] Time:          Tue Apr 21 2020 23:39:21 GMT+0530 (India Standard Time)
+[debug] [2020-04-21T18:09:21.566Z] ----------------------------------------------------------------------
+[debug] [2020-04-21T18:09:21.566Z] 
+[debug] [2020-04-21T18:09:21.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-21T18:09:21.577Z] > authorizing via signed-in user
+[debug] [2020-04-21T18:09:21.577Z] [iam] checking project authtest-ffcfb for permissions ["firebase.projects.get"]
+[debug] [2020-04-21T18:09:21.578Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/authtest-ffcfb:testIamPermissions  
+
+[debug] [2020-04-21T18:09:23.226Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-21T18:09:23.232Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/authtest-ffcfb  
+ 
+[debug] [2020-04-21T18:09:23.719Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\firebase\Test\authTest'...
+[info] 
+[debug] [2020-04-21T18:09:23.728Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/authtest-ffcfb/webApps/-/config  
+ 
+[debug] [2020-04-21T18:09:24.692Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

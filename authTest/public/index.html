@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callableTest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">    
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    
+</head>
+
+<body>
+    <div class="login-dark">
+        <form id="formM">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="form-group"><input class="form-control" type="email" name="name" placeholder="Enter Email" id="name" ></div>
+            <div class="form-group"><input class="form-control" type="password" name="mass" placeholder="Enter Password" id="mass"></div>
+			<div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div>
+		</form>
+		<div class="form-group"><button class="btn btn-secondary btn-lg primary btn-block" id="signOut">Sign Out</button></div><br>
+		<div class="form-group"><button class="btn btn-primary btn-block" id="test">Test</button></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDrAfs8xtAp2G56kb5Vy8cn3vC_xM2rxVQ",
+    authDomain: "authtest-ffcfb.firebaseapp.com",
+    databaseURL: "https://authtest-ffcfb.firebaseio.com",
+    projectId: "authtest-ffcfb",
+    storageBucket: "authtest-ffcfb.appspot.com",
+    messagingSenderId: "95883504044",
+    appId: "1:95883504044:web:0ec39faab8826acb64f209",
+    measurementId: "G-CPC3FGQTC1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+		<script src="./assets/index.js"></script>
+</body>
+
+</html>
